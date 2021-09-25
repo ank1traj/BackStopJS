@@ -1,0 +1,26 @@
+{
+  "name": "test-with-backstop",
+  "version": "1.0.0",
+  "description": "Visual automation using backstop",
+  "main": "index.js",
+  "scripts": {
+    "init": "node_modules/.bin/backstop init",
+    "test": "node_modules/.bin/backstop test --configPath=test/backstop.config.js",
+    "reference": "node_modules/.bin/backstop reference",
+    "approve": "node_modules/.bin/backstop approve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciovrl/backstopJS-example.git"
+  },
+  "author": "Ankit Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {},
+  "devDependencies": {
+    "backstopjs": "^5.3.7"
+  }
+}
