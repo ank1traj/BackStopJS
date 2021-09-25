@@ -1,5 +1,5 @@
 ---
-name: "Backstop JS"
+name: "BackstopJS"
 about: "Creates a set of test screenshots and compares them with your reference screenshots \U0001F914."
 framework: 'JavaScript'
 
