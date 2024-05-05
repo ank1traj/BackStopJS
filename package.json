@@ -6,7 +6,7 @@
   "scripts": {
     "init": "node_modules/.bin/backstop init",
     "test": "node_modules/.bin/backstop test --configPath=test/backstop.config.js",
-    "reference": "node_modules/.bin/backstop reference",
+    "reference": "node_modules/.bin/backstop reference --configPath=test/backstop.config.js",
     "approve": "node_modules/.bin/backstop approve"
   },
   "repository": {

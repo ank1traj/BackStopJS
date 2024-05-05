@@ -14,19 +14,19 @@ const basicTestSettings = {
   expect: 0,
   misMatchThreshold: 0.5,
   requireSameDimensions: true,
-  postInteractionWait: ""
-};                    
-        
+  postInteractionWait: "",
+};
+
 const home = {
-  label: "Homepage learn.rtcamp",
-  url: "https://learn.rtcamp.com/",
-  referenceUrl: "https://learn.rtcamp.com/",
+  label: "Homepage Samsung Knox",
+  url: "https://www.samsungknox.com/en",
+  referenceUrl: "https://www.samsungknox.com/fr",
 };
-const courses = {
-  label: "Courses learn.rtcamp",
-  url: "https://learn.rtcamp.com/courses",
-  referenceUrl: "https://learn.rtcamp.com/course",
-};
+// const courses = {
+//   label: "Courses learn.rtcamp",
+//   url: "https://learn.rtcamp.com/courses",
+//   referenceUrl: "https://learn.rtcamp.com/course",
+// };
 
 const scenarios = [home];
 
